@@ -14,7 +14,7 @@ private:
 
 public:
 	void addEmployee(Employee  *e);
-	void removeEmployee(string ssn);
-	void print() const;
+	void removeEmployee(Employee *e);
+	void printRoster() const;
 };
 

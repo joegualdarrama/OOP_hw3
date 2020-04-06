@@ -1,11 +1,5 @@
 #include "Hourly.h"
 
-Hourly::Hourly(string n, string s, float w, float h) : wage(w), hours(h)
-{
-	setName(n);
-	setSsn(s);
-}
-
 void Hourly::setWage(float w)
 {
 	wage = w;
@@ -37,15 +31,4 @@ float Hourly::getPay() const
 		return hours * wage;
 	}
 
-}
-
-void Hourly::print() const
-{
-	cout << "Hourly Employee Data:" << endl;
-	cout << "Employee Name:\t" << getName() << endl;
-	cout << "Employee SSN: \t" << getSsn() << endl;
-	cout << "Employee Wage:\t" << wage << endl;
-	cout << "Employee Hour:\t" << hours << endl;
-	cout << fixed << setprecision(2);
-	cout << "Gross Pay:    \t" << getPay() << endl;
 }

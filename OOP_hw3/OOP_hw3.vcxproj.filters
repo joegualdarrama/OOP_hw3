@@ -18,9 +18,6 @@
     <ClCompile Include="OOP_hw3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Employee.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Hourly.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

@@ -6,10 +6,17 @@ class Salaried :
 public:
 	float salary;
 
-	Salaried(string n = "", string s = "", float sal = 0.0);
-	void setSal(float s);
+	Salaried(string n, string s, float sal) : Employee(n, s), salary(sal) {};
+	void setSal(float sal);
 	float getSale() const;
 
-	void print() const;
+	virtual void print() const override {
+		cout << "Salaried Employee Data:" << endl;
+		cout << "Employee Name:\t" << name << endl;
+		cout << "Employee SSN: \t" << ssn << endl;
+		cout << "Salary:       \t" << salary << endl;
+		cout << fixed << setprecision(2);
+		cout << "Weekly Salary:\t" << salary / 52 << endl << endl;
+	}
 };
 

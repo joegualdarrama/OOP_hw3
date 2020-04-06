@@ -147,7 +147,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Employee.cpp" />
     <ClCompile Include="Hourly.cpp" />
     <ClCompile Include="OOP_hw3.cpp" />
     <ClCompile Include="Roster.cpp" />
