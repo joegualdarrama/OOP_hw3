@@ -1,9 +1,11 @@
 #include <iostream>
 
+
 #include "Employee.h"
     #include "Hourly.h"
     #include "Salaried.h"
 #include "Roster.h"
+
 
 using namespace std;
 
@@ -20,15 +22,16 @@ int main()
     s_test.print(); cout << endl;
 
     cout << "\n\n***Roster Tests:***\n";
+    Roster r;
 
-    Roster r_test;
-    r_test.addEmployee(test);
-    r_test.addEmployee(test2);
-    r_test.addEmployee(h_test);
-    r_test.addEmployee(s_test);
+    r.addEmployee(test);
+    r.addEmployee(h_test);
+    r.addEmployee(s_test);
 
-    
-    r_test.print();
+    r.print();
+
+
+
     
 }
 

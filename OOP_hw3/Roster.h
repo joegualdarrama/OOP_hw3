@@ -1,13 +1,16 @@
 #pragma once
 #include <vector>
-#include "Employee.h"
 #include <algorithm>
+#include <set>
+#include <functional> 
+
+#include "Employee.h"
 
 
 class Roster
 {
 private:
-	vector<Employee*> list;
+	set<Employee*> set;
 
 public:
 	void addEmployee(Employee  e);
