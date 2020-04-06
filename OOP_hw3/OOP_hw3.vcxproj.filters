@@ -18,24 +18,9 @@
     <ClCompile Include="OOP_hw3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Hourly.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Salaried.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Roster.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Employee.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Hourly.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Salaried.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Roster.h">

@@ -147,16 +147,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Hourly.cpp" />
     <ClCompile Include="OOP_hw3.cpp" />
-    <ClCompile Include="Roster.cpp" />
-    <ClCompile Include="Salaried.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Employee.h" />
-    <ClInclude Include="Hourly.h" />
     <ClInclude Include="Roster.h" />
-    <ClInclude Include="Salaried.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

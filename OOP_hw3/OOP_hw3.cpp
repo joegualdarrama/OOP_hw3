@@ -1,8 +1,6 @@
 #include <iostream>
 
 #include "Employee.h"
-    #include "Hourly.h"
-    #include "Salaried.h"
 #include "Roster.h"
 
 
