@@ -24,9 +24,9 @@ int main()
     cout << "\n\n***Roster Tests:***\n";
     Roster r;
 
-    r.addEmployee(test);
-    r.addEmployee(h_test);
-    r.addEmployee(s_test);
+    r.addEmployee(&test);
+    r.addEmployee(&h_test);
+    r.addEmployee(&s_test);
 
     r.print();
 

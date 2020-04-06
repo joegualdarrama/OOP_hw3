@@ -13,7 +13,7 @@ private:
 	set<Employee*> set;
 
 public:
-	void addEmployee(Employee  e);
+	void addEmployee(Employee  *e);
 	void removeEmployee(string ssn);
 	void print() const;
 };

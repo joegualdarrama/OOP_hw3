@@ -1,8 +1,8 @@
 #include "Roster.h"
 
-void Roster::addEmployee(Employee e)
+void Roster::addEmployee(Employee *e)
 {
-	set.insert(&e);
+	set.insert(e);
 }
 
 void Roster::removeEmployee(string ssn)
